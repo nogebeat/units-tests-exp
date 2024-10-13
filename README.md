@@ -100,7 +100,7 @@ int s_main(int ac, char **av);
 
 ```
 
-#Tests Unitaires avec Criterion
+# Tests Unitaires avec Criterion
 Nous utilisons Criterion pour effectuer les tests unitaires de la fonction Division. Les tests sont situés dans le fichier tests/test_division.c.
 
 ```c
