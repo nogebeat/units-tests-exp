@@ -21,3 +21,5 @@ jobs:
       run: cd exemples; make re ; make clean
     - name: make fclean
       run: cd exemples; make re ; make fclean
+    - name: make test
+      run: cd exemples; make re ; make tests_run ; make fclean
