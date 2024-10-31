@@ -14,4 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: make
-      run: make
+      run: cd exemples; make
+    - name: make re
+      run: cd exemples; make re
+    - name: make clean
+      run: cd exemples; make re ; make clean
+    - name: make fclean
+      run: cd exemples; make re ; make fclean
