@@ -26,6 +26,6 @@ jobs:
     - name: install critérion
       run: sudo apt-get update; sudo apt-get install criterion*
     - name: check_program_compilation_test
-      run: sudo apt-get install criterion* ; make re ; make tests_run ; make fclean
+      run: cd exemples; sudo apt-get install criterion* ; make re ; make tests_run ; make fclean
 
 
