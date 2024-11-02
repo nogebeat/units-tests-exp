@@ -24,6 +24,6 @@ jobs:
     - name: make test
       run: cd exemples; make re ; ./division_program 10 3 ; make fclean
     - name: install critérion
-      run: sudo apt-get update; sudo apt-get install criterion-dev
+      run: sudo apt-get update; sudo apt-get install criterion*
 
 
